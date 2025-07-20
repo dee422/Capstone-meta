@@ -1,0 +1,164 @@
+/* styles.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap; /* 响应式关键 */
+}
+
+.nav-item {
+  margin: 0.5rem;
+}
+
+/* styles.css */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* .hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffeb3b; 
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff6347; 
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background-color: #d14f2b;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #eee;
+}
+ul.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+} */
+
+/* 通用设置 */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* 导航栏 */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #fbdabb;
+}
+
+nav .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Hero 区域 */
+header {
+  background-color: #495e57;
+  color: white;
+  padding: 80px;
+  text-align: left;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+header p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+header button {
+  padding: 12px 24px;
+  background-color: #f4ce14;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Specials 主体区域 */
+.specials {
+  padding: 60px 80px;
+  background-color: #fff;
+}
+
+.specials h2 {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  background-color: #edefee;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 页脚 */
+footer {
+  background-color: #fbdabb;
+  padding: 30px 80px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}

@@ -1,8 +1,6 @@
-import React from 'react';
-
 function Main() {
   return (
-    <main>
+    <main clasName='container'>
       <section aria-label="Hero Section">
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
